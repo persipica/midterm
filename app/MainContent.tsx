@@ -4,6 +4,7 @@ import React, { useEffect, Suspense } from 'react'
 import styles from '../styles/Home.module.css'
 import Header from '../components/Header'
 import Loading from './Loading'
+import { ScrollToTop } from '@/components/ScrollToTop'
 
 export default function Home() {
   useEffect(() => {
@@ -250,7 +251,12 @@ export default function Home() {
         </section>
 
         <footer className={styles.footer}>
-          <p>© KHS Portfolio. All rights reserved.</p>
+          <div id="footer">
+            <p>© KHS Portfolio. All rights reserved.</p>
+          </div>
+          <div id="top">
+            <ScrollToTop></ScrollToTop>
+          </div>
         </footer>
       </div>
     </Suspense>

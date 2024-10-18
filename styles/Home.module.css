@@ -352,6 +352,11 @@
   font-size: 14px;
 }
 
+.top {
+  display: flex;
+  max-width: 1200px;
+}
+
 .skillCard,
 .projectCard {
   opacity: 0;
