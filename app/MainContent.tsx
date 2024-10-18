@@ -156,7 +156,7 @@ export default function Home() {
               <h3>Project 3</h3>
               <p>Next.js로 만든 중간발표용 포트폴리오 사이트입니다.</p>
               <a
-                href="https://example.com"
+                href="https://github.com/persipica/midterm"
                 target="_blank"
                 rel="noopener noreferrer"
               >
