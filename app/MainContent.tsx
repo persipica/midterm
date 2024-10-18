@@ -30,7 +30,7 @@ export default function Home() {
     <Suspense fallback={<Loading />}>
       <div className={styles.container}>
         <Header></Header>
-        <section className={styles.banner}>
+        <section id="banner" className={styles.banner}>
           <h1>Welcome to My Portfolio</h1>
           <p>Explore my work and skills below!</p>
         </section>

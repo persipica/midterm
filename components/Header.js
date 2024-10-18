@@ -19,6 +19,11 @@ export default function Header() {
     <header className={styles.header}>
       <div className={styles.logo}>
         <a href="/">KHS</a>
+        <li>
+          <a href="#banner" onClick={(e) => handleScroll(e, 'banner')}>
+            Top
+          </a>
+        </li>
       </div>
       <nav className={styles.nav}>
         <ul>
