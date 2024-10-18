@@ -1,6 +1,6 @@
 'use client'
 
-import React, { useState, useEffect, useRef, Suspense } from 'react'
+import React, { useEffect, Suspense } from 'react'
 import styles from '../styles/Home.module.css'
 import Header from '../components/Header'
 import Loading from './Loading'
