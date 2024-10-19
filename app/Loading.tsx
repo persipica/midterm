@@ -21,10 +21,10 @@ const Loading = () => {
   return (
     <div className={styles.loadingContainer}>
       <h2>{loadingMessages[messageIndex]}</h2>
+      <img src="./loading.gif" alt="loading" />
       <div className={styles.progressContainer}>
         <div className={styles.progressBar}></div>
       </div>
-      <img src="./loading.gif" alt="loading" />
     </div>
   )
 }
