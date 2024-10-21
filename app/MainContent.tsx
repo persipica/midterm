@@ -36,7 +36,6 @@ export default function Home() {
           <p>Explore my work and skills below!</p>
         </section>
 
-        {/* 소개 섹션 */}
         <section id="about-me" className={styles.about}>
           <div className={styles.aboutContent}>
             <div className={styles.aboutVideo}>
@@ -89,7 +88,6 @@ export default function Home() {
           </a>
         </div>
 
-        {/* 스킬 섹션 */}
         <section id="skills" className={styles.skills}>
           <h2>Skills</h2>
           <div className={styles.skillGrid}>
@@ -112,7 +110,6 @@ export default function Home() {
           </div>
         </section>
 
-        {/* 프로젝트 섹션 */}
         <section id="projects" className={styles.projects}>
           <h2>Projects</h2>
           <div className={styles.projectGrid}>
@@ -215,7 +212,6 @@ export default function Home() {
           </div>
         </section>
 
-        {/* Contact Me 섹션 */}
         <section id="contact" className={styles.contactMe}>
           <h2>Contact Me</h2>
 
